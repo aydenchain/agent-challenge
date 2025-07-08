@@ -3,7 +3,7 @@
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![Nosana](https://img.shields.io/badge/runs%20on-nosana-orange)
 
-
+![EduPath Agent Banner](./assets/NosanaBuildersChallengeAgents.jpg)
 ![EduPath Agent Banner](./assets/Nosana-Challenge-Edupath.png)
 ![EduPath Agent flow](./assets/Flow-edupath.png)
 
