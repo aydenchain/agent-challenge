@@ -8,7 +8,7 @@
 ![EduPath Agent flow](./assets/Flow-edupath.png)
 
 **EduPath Agent** is an AI-powered career advisor built with the [Mastra](https://mastra.ai) framework for the [Nosana Builders Challenge](https://earn.superteam.fun/agent-challenge). It helps students explore career paths, align with their strengths, and design a personalized 5-year development roadmap — all through an intelligent, conversational agent.
-
+- 📹 Demo Video X: (https://x.com/AydenCryptoWRLD/status/1942437973737312272)
 ---
 
 ## ✨ Key Features
