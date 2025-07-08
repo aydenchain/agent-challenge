@@ -119,7 +119,9 @@ The agent runs a modular pipeline:
 ---
 
 ## 💻 Run It Locally
+```bash
 git clone https://github.com/aydenchain/agent-challenge
+```
 ### 🔧 Prerequisites
 
 - Node.js v18+
@@ -147,6 +149,7 @@ Make sure Ollama is running in the background.
 ---
 ## 🐳 Docker Support
 ### Build Image
+```bash
 docker build -t username/agent-challenge:dev .
 docker login
 ### Run Container
@@ -154,7 +157,7 @@ docker run -p 8080:8080 --env-file .env username/agent-challenge:dev
 ### Push to Docker Hub (Optional)
 docker tag agent-challenge username/agent-challenge:dev
 docker push username/agent-challenge:dev
-
+```
 ##  Sample Use Case
 ### User Input:
 Hi! I'm a high school science student who enjoys math, computers, and coding.
@@ -214,7 +217,7 @@ Open Source Community
 
 ## 📦 Submission Links
 
-- 🔗 Deployment Page Agent Nosana (): ( https://dashboard.nosana.com/jobs/3fqRbxbMCBYMbA5iBsb9yy9CMjrCJHww9x7PSUx622Fu)
+- 🔗 Deployment Page Agent Nosana: ( https://dashboard.nosana.com/jobs/3fqRbxbMCBYMbA5iBsb9yy9CMjrCJHww9x7PSUx622Fu)
 - 🐳 Docker Image: (https://hub.docker.com/r/aydenchain/agent-challenge)
 - 📹 Demo Video X: (https://x.com/AydenCryptoWRLD/status/1942437973737312272)
 - 📹 Demo Video Youtube: (https://youtu.be/XrAqkJXZmjc)
