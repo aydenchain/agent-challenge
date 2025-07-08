@@ -138,8 +138,9 @@ pnpm run dev
 Visit http://localhost:8080 in your browser.
 ---
 ## ⚙️ Environment Setup
+```bash
 cp .env.example .env
-
+```
 ### For Ollama 
 API_BASE_URL=http://localhost:11434/api (this is for local, check .env.example to Nosana or cloud deployments with GPU support)
 MODEL_NAME_AT_ENDPOINT=qwen2.5:1.5b
@@ -152,9 +153,13 @@ Make sure Ollama is running in the background.
 ```bash
 docker build -t username/agent-challenge:dev .
 docker login
+```
 ### Run Container
+```bash
 docker run -p 8080:8080 --env-file .env username/agent-challenge:dev
+```
 ### Push to Docker Hub (Optional)
+```bash
 docker tag agent-challenge username/agent-challenge:dev
 docker push username/agent-challenge:dev
 ```
@@ -217,7 +222,7 @@ Open Source Community
 
 ## 📦 Submission Links
 
-- 🔗 Deployment Page Agent Nosana: ( https://dashboard.nosana.com/jobs/3fqRbxbMCBYMbA5iBsb9yy9CMjrCJHww9x7PSUx622Fu)
+- 🔗 Deployment Page Agent Nosana: ( https://dashboard.nosana.com/jobs/3fqRbxbMCBYMbA5iBsb9yy9CMjrCJHww9x7PSUx622Fu )
 - 🐳 Docker Image: (https://hub.docker.com/r/aydenchain/agent-challenge)
 - 📹 Demo Video X: (https://x.com/AydenCryptoWRLD/status/1942437973737312272)
 - 📹 Demo Video Youtube: (https://youtu.be/XrAqkJXZmjc)
