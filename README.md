@@ -119,7 +119,8 @@ The agent runs a modular pipeline:
 ---
 
 ## 💻 Run It Locally
-
+git clone https://github.com/aydenchain/agent-challenge
+cd agent-challenge
 ### 🔧 Prerequisites
 
 - Node.js v18+
@@ -139,42 +140,67 @@ Visit http://localhost:8080 in your browser.
 cp .env.example .env
 
 ### For Ollama 
-API_BASE_URL=http://localhost:11434/api
+API_BASE_URL=http://localhost:11434/api (this is for local, check .env.example to Nosana or cloud deployments with GPU support)
 MODEL_NAME_AT_ENDPOINT=qwen2.5:1.5b
 
-Make sure your Ollama is running on background
+Make sure Ollama is running in the background.
 
 ---
 ## 🐳 Docker Support
 ### Build Image
-docker build -t edupath-agent .
+docker build -t username/agent-challenge:dev .
+docker login
 ### Run Container
-docker run -p 8080:8080 edupath-agent
+docker run -p 8080:8080 --env-file .env username/agent-challenge:dev
 ### Push to Docker Hub (Optional)
-docker tag edupath-agent yourusername/edupath-agent:dev
-docker push yourusername/edupath-agent:dev
+docker tag agent-challenge username/agent-challenge:dev
+docker push username/agent-challenge:dev
 
 ##  Sample Use Case
 ### User Input:
-I enjoy programming, science, and working independently. I dislike social interaction-heavy jobs.
+Hi! I'm a high school science student who enjoys math, computers, and coding.
+I prefer working alone and dislike high-social interaction jobs.
+In my free time, I play games and experiment with AI tools like ChatGPT.
+My family comes from a lower-middle income background.
+I want to know what career suits me and how to prepare for it over the next 5 years.
+✅ The agent activates all 7 tools, generates a custom personality type, career matches like Data Scientist or AI Engineer, and even shows a realistic daily schedule and full 5-year plan.
 ### EduPath Output:
-Personality Type: INTJ
-Career Matches: 
-  - Data Scientist
-  - Systems Architect
-  - Cybersecurity Analyst
-Education Path:
-  - BSc in Computer Science
-  - Data Analytics Certification
-Skill Roadmap:
-  - Year 1: Python, Algorithms
-  - Year 2: Machine Learning Basics
-  - Year 3: Cloud Infrastructure
-Simulated Workday:
-  - 09:00: Analyze datasets
-  - 11:00: Build prediction models
-  - 14:00: Code optimization
-  - 16:00: Report writing
+Hello! Welcome to EduPath. Let's start by understanding your interests and preferences, as well as your background.
+
+Personal Profile
+Based on your responses, you are currently a high school science student who enjoys math, computers, and coding. You prefer working alone and dislike high-social interaction jobs. In your free time, you play games and experiment with AI tools like ChatGPT.
+
+Personality Analysis
+Your interests in mathematics, computer science, and programming suggest an aptitude for logical thinking, problem-solving, and technical skills. Your preference for working independently indicates a strong work ethic and self-motivation. However, the interest in coding also implies a curiosity and creativity that can be beneficial in many fields.
+
+Career Matching
+Given your interests in math, computers, and programming, you might find careers such as Data Scientist or AI Engineer highly suitable. These roles involve using mathematical models to analyze data, developing algorithms for machine learning, and creating artificial intelligence systems.
+
+Educational Path Recommendation
+To align with these career paths, it would be beneficial to focus on subjects like computer science, mathematics, and programming during your high school years. Additionally, consider taking courses or workshops in coding languages (e.g., Python, JavaScript) and data analysis tools (e.g., R, SQL).
+
+Skill Roadmap for the Next 5 Years
+Mathematics: Strengthen your understanding of algebra, calculus, and statistics.
+Programming Languages: Learn at least one programming language like Python or Java.
+Data Analysis Tools: Familiarize yourself with tools such as R, SQL, and data visualization libraries (e.g., Matplotlib, Seaborn).
+Computer Science Fundamentals: Understand algorithms, computer architecture, and software development methodologies.
+Simulating Your Career
+With a strong foundation in mathematics, programming, and data analysis, you could start your career in Data Analysis or AI Engineering. Here’s how it might look over the next 5 years:
+
+Year 1: Focus on developing foundational skills in math and computer science.
+Year 2: Dive deeper into programming languages and learn more about algorithmic thinking.
+Year 3: Start applying your knowledge to projects or small-scale data analysis.
+Year 4: Develop a strong understanding of machine learning concepts and start building simple AI models.
+Year 5: Continue honing skills, possibly taking on larger projects that integrate multiple disciplines.
+Action Plan
+1st Year: Focus on developing foundational math and computer science skills.
+2nd Year: Dive into programming languages like Python or Java to build a strong technical foundation.
+3rd Year: Start applying your knowledge through small data analysis projects.
+4th Year: Build a solid understanding of machine learning concepts, starting with simple models.
+5th Year: Continue developing skills and explore more complex projects that integrate multiple disciplines.
+This plan is designed to help you build the necessary skills for a career in Data Science or AI Engineering. Remember, persistence and continuous learning are key to success in these fields!
+
+Would you like any further assistance or have any questions about your future plans?
 
 ## 🙌 Acknowledgements
 Thanks to:
@@ -189,9 +215,10 @@ Open Source Community
 
 ## 📦 Submission Links
 
-- 🔗 Live Agent Nosana: ( https://dashboard.nosana.com/jobs/GqBNcRyX7oEFNpzUBBP4ntjj6oNUnA4CDaBnB4sDXbQn )
+- 🔗 Deployment Page Agent Nosana (): ( https://dashboard.nosana.com/jobs/3fqRbxbMCBYMbA5iBsb9yy9CMjrCJHww9x7PSUx622Fu)
 - 🐳 Docker Image: (https://hub.docker.com/r/aydenchain/agent-challenge)
-- 📹 Demo Video: (link twitter)
+- 📹 Demo Video X: (https://x.com/AydenCryptoWRLD/status/1942437973737312272)
+- 📹 Demo Video Youtube: (https://youtu.be/XrAqkJXZmjc)
 - 💻 Source Code: (https://github.com/aydenchain/agent-challenge)
 
 
