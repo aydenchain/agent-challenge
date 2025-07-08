@@ -120,7 +120,6 @@ The agent runs a modular pipeline:
 
 ## 💻 Run It Locally
 git clone https://github.com/aydenchain/agent-challenge
-cd agent-challenge
 ### 🔧 Prerequisites
 
 - Node.js v18+
