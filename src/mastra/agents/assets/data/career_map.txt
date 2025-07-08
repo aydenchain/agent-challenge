@@ -1,0 +1,284 @@
+
+# Career Mapping by Personality Type and Interests
+
+[Realistic]
+- Technician
+- Mechanical Engineer
+- Electrician
+- Carpenter
+
+[Investigative]
+- Data Scientist
+- AI Researcher
+- Pharmacist
+- Environmental Analyst
+
+[Artistic]
+- Graphic Designer
+- UI/UX Designer
+- Animator
+- Music Producer
+
+[Social]
+- Teacher
+- Psychologist
+- Nurse
+- Social Worker
+
+[Enterprising]
+- Entrepreneur
+- Marketing Specialist
+- Sales Manager
+- Business Consultant
+
+[Conventional]
+- Accountant
+- Data Entry Clerk
+- Financial Analyst
+- Project Manager
+
+Realistic 
+Civil Engineer
+
+Aerospace Engineer
+
+Automotive Mechanic
+
+Welder
+
+Construction Worker
+
+Surveyor
+
+Industrial Designer
+
+Robotics Technician
+
+Firefighter
+
+Military Personnel
+
+Pilot
+
+Plumber
+
+Architect 
+
+Electric Lineman
+
+Landscape Architect
+
+Marine Engineer
+
+Oil Rig Worker
+
+CNC Machinist
+
+HVAC Technician
+
+Agricultural Engineer
+
+Investigative 
+Astrophysicist
+
+Biomedical Engineer
+
+Chemist
+
+Forensic Scientist
+
+Geologist
+
+Mathematician
+
+Neurologist
+
+Psychiatrist
+
+Software Engineer
+
+Statistician
+
+Geneticist
+
+Microbiologist
+
+Actuary
+
+Cybersecurity Analyst
+
+Economist
+
+Epidemiologist
+
+Archaeologist
+
+Climate Scientist
+
+Quantum Physicist
+
+AI Ethics Researcher
+
+Artistic 
+Illustrator
+
+Fashion Designer
+
+Film Director
+
+Photographer
+
+Writer/Author
+
+Art Director
+
+Choreographer
+
+Actor/Actress
+
+Video Editor
+
+Game Designer
+
+Creative Director
+
+Interior Designer
+
+Jewelry Designer
+
+Makeup Artist
+
+Music Composer
+
+Sculptor
+
+Theater Producer
+
+Voice Actor
+
+Digital Artist
+
+Advertising Copywriter
+
+Social (Membantu, Mengajar, Berinteraksi dengan Orang Lain)
+Counselor
+
+Human Resources Specialist
+
+Physical Therapist
+
+Speech Therapist
+
+Life Coach
+
+Pediatrician
+
+Career Advisor
+
+Nonprofit Manager
+
+Community Health Worker
+
+Rehabilitation Specialist
+
+School Principal
+
+Special Education Teacher
+
+Marriage & Family Therapist
+
+Geriatric Care Manager
+
+Public Health Educator
+
+Child Psychologist
+
+Volunteer Coordinator
+
+Hospice Worker
+
+Diversity & Inclusion Officer
+
+ESL Teacher
+
+Enterprising 
+CEO/Executive
+
+Investment Banker
+
+Real Estate Agent
+
+Politician
+
+Public Relations Specialist
+
+Stockbroker
+
+Franchise Owner
+
+Venture Capitalist
+
+Brand Manager
+
+Event Planner
+
+Management Consultant
+
+Sales Director
+
+Supply Chain Manager
+
+Hotel Manager
+
+Insurance Broker
+
+Corporate Lawyer
+
+Talent Agent
+
+E-commerce Entrepreneur
+
+Sports Agent
+
+Influencer Marketer
+
+Conventional (Terstruktur, Detail-Oriented, Administratif)
+Auditor
+
+Tax Consultant
+
+Bank Teller
+
+Compliance Officer
+
+Executive Assistant
+
+Insurance Underwriter
+
+Logistics Coordinator
+
+Office Manager
+
+Payroll Specialist
+
+Quality Assurance Analyst
+
+Records Manager
+
+Supply Chain Analyst
+
+Legal Secretary
+
+Medical Coder
+
+Database Administrator
+
+Credit Analyst
+
+Procurement Officer
+
+Actuarial Analyst
+
+Inventory Controller
+
+HRIS Specialist

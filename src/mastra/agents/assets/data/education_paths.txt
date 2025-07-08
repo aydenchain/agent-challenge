@@ -1,0 +1,31 @@
+# Education Path Recommendations (International)
+
+[Technician]
+- Vocational High School with Mechanical/Electrical Focus
+- Automotive Technician Training Programs (Certified)
+- Community College in Applied Engineering
+
+[Data Scientist]
+- High School STEM Track → Bachelor's in Computer Science or Statistics
+- Online Bootcamps (e.g., DataCamp, Coursera)
+- Master's in AI/Data Science (optional)
+
+[Graphic Designer]
+- Creative Arts High School or General High School
+- Bachelor's in Design, Fine Arts, or Multimedia
+- Online Platforms (e.g., Skillshare, Udemy)
+
+[Teacher]
+- General High School → Bachelor's in Education or Subject Area
+- Teaching Certification (e.g., PGCE, B.Ed)
+- Optional: Master's in Education
+
+[Entrepreneur]
+- Business Track in High School
+- Bachelor's in Business Administration, Entrepreneurship, or related
+- Online Self-paced Programs + Startup Incubators
+
+[Accountant]
+- High School Commerce Track
+- Bachelor's in Accounting or Finance
+- CPA Certification or Regional Equivalents (e.g., ACCA)

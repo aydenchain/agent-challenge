@@ -1,0 +1,9 @@
+
+# RIASEC Personality Model
+
+Realistic: Prefers physical activities, tools, and machinery. Practical and hands-on.
+Investigative: Analytical, intellectual, enjoys research and solving problems.
+Artistic: Creative, expressive, enjoys art, design, music.
+Social: Helpful, friendly, enjoys teaching or healing others.
+Enterprising: Persuasive, leadership-oriented, enjoys starting projects or selling ideas.
+Conventional: Organized, detail-oriented, enjoys structured tasks and working with data.

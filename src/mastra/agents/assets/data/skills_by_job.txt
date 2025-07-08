@@ -1,0 +1,154 @@
+[Graphic Designer]
+Adobe Photoshop
+
+Adobe Illustrator
+
+Figma
+
+Typography
+
+Color Theory
+
+UI/UX Design
+
+Branding & Identity
+
+Motion Graphics (After Effects)
+
+Print Design
+
+Photo Editing
+
+Layout Design
+
+Illustration
+
+3D Modeling (Blender, Cinema 4D)
+
+Prototyping
+
+Design Thinking
+
+[Data Scientist]
+Python
+
+Pandas
+
+Machine Learning
+
+SQL
+
+Data Visualization (Matplotlib, Seaborn)
+
+Statistical Analysis
+
+Deep Learning (TensorFlow, PyTorch)
+
+Big Data (Hadoop, Spark)
+
+Natural Language Processing (NLP)
+
+A/B Testing
+
+Cloud Computing (AWS, GCP)
+
+R (for Statistical Modeling)
+
+Data Cleaning & Wrangling
+
+Time Series Analysis
+
+Experiment Design
+
+[Teacher]
+Public Speaking
+
+Curriculum Design
+
+Educational Psychology
+
+Classroom Management
+
+Differentiated Instruction
+
+Assessment Design
+
+Special Education Strategies
+
+E-Learning Tools (Google Classroom, Moodle)
+
+Multicultural Education
+
+Student Engagement Techniques
+
+Parent-Teacher Communication
+
+Lesson Planning
+
+STEM/STEAM Education
+
+Literacy Development
+
+Behavioral Intervention
+
+[Entrepreneur]
+Business Strategy
+
+Digital Marketing
+
+Networking
+
+Fundraising
+
+Financial Modeling
+
+Sales & Negotiation
+
+Lean Startup Methodology
+
+Market Research
+
+Product Development
+
+Pitching & Investor Relations
+
+Supply Chain Management
+
+SEO & Content Marketing
+
+Social Media Growth
+
+Risk Management
+
+Leadership & Team Building
+
+[Technician]
+Schematic Reading
+
+Troubleshooting
+
+Electrical Safety
+
+Soldering
+
+Equipment Calibration
+
+Preventive Maintenance
+
+Hydraulics & Pneumatics
+
+Welding (MIG/TIG)
+
+CNC Machining
+
+HVAC Systems
+
+Automotive Diagnostics
+
+PLC Programming
+
+Robotics Maintenance
+
+Quality Control
+
+OSHA Compliance
