@@ -4,7 +4,9 @@ import { z } from "zod";
 export const collectUserProfileTool = createTool({
   id: "collect-user-profile",
   description: "Collect user interests, academic strengths, and family income background",
-  inputSchema: z.object({ userDescription: z.string() }),
+  inputSchema: z.object({
+    userDescription: z.string().describe("A sentence about your interests, strengths, and preferences"),
+  }),
   outputSchema: z.object({
     profileSummary: z.string(),
     academicStrengths: z.string(),
@@ -12,31 +14,54 @@ export const collectUserProfileTool = createTool({
     familyIncomeLevel: z.string(),
   }),
   execute: async ({ context }) => {
-    const { userDescription } = context;
-    const lower = userDescription.toLowerCase();
+    console.log("✅ [collect-user-profile] Received context:", context);
 
-    const hobbies = lower.includes("puzzle") || lower.includes("game")
-      ? "solving puzzles, logic games"
-      : "general hobbies";
+    // PERBAIKAN: Pastikan context ada dan userDescription tersedia
+    const { userDescription } = context || {};
 
-    const academicStrengths = lower.includes("number") || lower.includes("math")
-      ? "mathematics and logical reasoning"
-      : "unknown";
+    if (!userDescription || typeof userDescription !== "string") {
+      console.error("❌ Invalid or missing 'userDescription':", userDescription);
+      throw new Error("Missing input: 'userDescription' is required.");
+    }
 
-    const interest = lower.includes("things work") || lower.includes("engineering")
-      ? "understanding systems or technology"
-      : "unknown";
+    let academicStrengths = "General problem solving";
+    let hobbies = "exploring ideas, working independently";
+    let familyIncomeLevel = "middle income";
 
-    const familyIncomeLevel = lower.includes("low income") || lower.includes("middle")
-      ? "middle"
-      : "unknown";
+    // Enhanced parsing logic
+    const lowerDesc = userDescription.toLowerCase();
+    
+    if (lowerDesc.includes("math") || lowerDesc.includes("science") || lowerDesc.includes("coding")) {
+      academicStrengths = "Math, Science, and Programming";
+    } else if (lowerDesc.includes("art") || lowerDesc.includes("design") || lowerDesc.includes("creative")) {
+      academicStrengths = "Creative Arts and Design";
+    } else if (lowerDesc.includes("help") || lowerDesc.includes("people") || lowerDesc.includes("teach")) {
+      academicStrengths = "Communication and People Skills";
+    }
 
-    const summary = `
-🧠 You are interested in **${interest}**, and your hobby is **${hobbies}**.
-💰 Your family's income level is identified as **${familyIncomeLevel}**, which will help us provide realistic educational recommendations.`.trim();
+    if (lowerDesc.includes("game") || lowerDesc.includes("computer") || lowerDesc.includes("tech")) {
+      hobbies = "gaming, technology, programming";
+    } else if (lowerDesc.includes("sport") || lowerDesc.includes("outdoor") || lowerDesc.includes("physical")) {
+      hobbies = "sports, outdoor activities";
+    } else if (lowerDesc.includes("read") || lowerDesc.includes("book") || lowerDesc.includes("write")) {
+      hobbies = "reading, writing, learning";
+    }
+
+    if (lowerDesc.includes("lower") || lowerDesc.includes("budget") || lowerDesc.includes("afford")) {
+      familyIncomeLevel = "lower income";
+    } else if (lowerDesc.includes("upper") || lowerDesc.includes("wealthy") || lowerDesc.includes("rich")) {
+      familyIncomeLevel = "upper income";
+    }
+
+    const profileSummary = `
+🧠 You are someone who enjoys challenges and solving problems.
+🎯 Your academic strengths include: ${academicStrengths}.
+🎮 Your hobbies seem to be: ${hobbies}.
+💰 Your family income level is estimated as: ${familyIncomeLevel}.
+    `.trim();
 
     return {
-      profileSummary: summary,
+      profileSummary,
       academicStrengths,
       hobbies,
       familyIncomeLevel,

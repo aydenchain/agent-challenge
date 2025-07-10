@@ -38,6 +38,5 @@ export const edupathAgent = new Agent({
     build5YearPlanTool,
   },
   workflows: {
-    edupathWorkflow,
   },
 });
