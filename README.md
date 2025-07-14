@@ -222,7 +222,7 @@ Open Source Community
 
 ## 📦 Submission Links
 
-- 🔗 Deployment Page Agent Nosana: ( https://dashboard.nosana.com/jobs/8aj99q4K4QozKm7ZzN9R7pCwsKXmbwpfb9qbpM6CgBDE )
+- 🔗 Deployment Page Agent Nosana: ( https://dashboard.nosana.com/jobs/9jcRcJYBQjb4gxee5a8gUf1XFL4KZdKFj1gMM8oyHpWB )
 - 🐳 Docker Image: (https://hub.docker.com/r/aydenchain/agent-challenge)
 - 📹 Demo Video X: (https://x.com/AydenCryptoWRLD/status/1942437973737312272)
 - 📹 Demo Video Youtube: (https://youtu.be/XrAqkJXZmjc)
